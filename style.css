@@ -1,0 +1,88 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #e8f5e9; 
+    color: #1a2a3a;
+    text-align: center;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #0d1b2a;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #0d1b2a;
+    transition: color 0.3s ease-in-out;
+}
+h2:hover {
+    color: #419b5d; 
+    cursor: pointer;
+}
+
+.about {
+    background-color: #ffffff;
+    border: 1px solid #419b5d;
+    border-radius: 0.5rem;
+    padding: 20px;
+    width: 60%;
+    margin: 20px auto;
+}
+
+#phone-link {
+    color: #2e6f40;
+    font-weight: bold;
+}
+
+.email-info {
+    color: #1a2a3a;
+}
+
+.status.active {
+    color: #0d1b2a;
+    font-weight: bold;
+}
+
+div span {
+    color: #419b5d;
+}
+nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #2e6f40;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #0d1b2a;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.card {
+    background-color: #ffffff; 
+    border: 1px solid #2e6f40; 
+    border-radius: 0.5rem;
+    padding: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.25rem;
+}
